@@ -1,4 +1,4 @@
-
+#contains test functions for get_color_from_pair_number and get_pair_number_from_color
 import ColorfromPair , PairfromColor
 
 def test_number_to_pair(pair_number,
