@@ -1,4 +1,4 @@
-import testfile,definitions
+import testfile,Colordefinitions
 import ReferenceManual
 
 if __name__ == '__main__':
@@ -8,4 +8,4 @@ if __name__ == '__main__':
   testfile.test_pair_to_number('Violet', 'Slate', 25)
   testfile.test_pair_to_number('Red', 'Orange', 7)
   print('Done :)')
-  ReferenceManual.print_manual(definitions.MAJOR_COLORS, definitions.MINOR_COLORS)
+  ReferenceManual.print_manual(Colordefinitions.MAJOR_COLORS, Colordefinitions.MINOR_COLORS)
